@@ -14,7 +14,10 @@ def handleData(handle, value):
         pr = abs(value[1])
         pi = abs(value[3]) / float(10)
                                             
-        print('SpO2 {} % , PR {} bpm , PI {} %'.format(spo2,pr,pi))
+        if spo2 == 127 and pr == 127 and pi == 0:
+            print('Finger out')
+        else:
+            print('SpO2 {} % , PR {} bpm , PI {} %'.format(spo2,pr,pi))
 
         
 try:
