@@ -4,8 +4,7 @@ There are many medical devices for measuring SpO2 PR PI, one of which is the Dig
 ![gambar-product][gambar-product-url]
 
 ## Measurement Data
-BLE name : Medical
-How to get measurement data can use many ways, one of which uses the python programming language, for the source code program can be seen in PulseOximeter.py
+How to get measurement data can use many ways, one of which uses the python programming language, for the source code program can be seen in PulseOximeter.py and BLE name is Medical.
 
 ![gambar-screenshot][gambar-screenshot-url]
 
